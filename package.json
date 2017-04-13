@@ -1,0 +1,30 @@
+{
+  "name": "elm-test",
+  "version": "0.1.0",
+  "description": "A setup for an Elm app using webpack and Sass.",
+  "main": "./src/assets/js/entry.js",
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "^0.28.0",
+    "elm-webpack-loader": "^4.3.0",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "node-sass": "^4.5.2",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.16.1",
+    "webpack": "^2.3.3",
+    "elm-hot-loader": "^0.5.4"
+  },
+  "bin": {
+    "webpack": "./node_modules/.bin/webpack"
+  },
+  "scripts": {
+    "build": "webpack",
+    "build-watch": "webpack --watch"
+  },
+  "keywords": [
+    "elm"
+  ],
+  "author": "J.A. Germeraad",
+  "license": "ISC",
+  "repository": "UNDEFINED"
+}
