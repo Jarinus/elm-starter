@@ -10,3 +10,6 @@ A setup for an Elm app using webpack and Sass.
 `npm run build`
 
 Open `/static/index.html` in your browser to view your Elm app.
+
+## Known bugs
+The bootstrap-sass fonts are still a problem. Working on a fix.

@@ -5,14 +5,17 @@
   "main": "./src/assets/js/entry.js",
   "dependencies": {},
   "devDependencies": {
+    "bootstrap-sass": "^3.3.7",
     "css-loader": "^0.28.0",
+    "elm-hot-loader": "^0.5.4",
     "elm-webpack-loader": "^4.3.0",
     "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.11.1",
     "node-sass": "^4.5.2",
     "sass-loader": "^6.0.3",
     "style-loader": "^0.16.1",
-    "webpack": "^2.3.3",
-    "elm-hot-loader": "^0.5.4"
+    "url-loader": "^0.5.8",
+    "webpack": "^2.3.3"
   },
   "bin": {
     "webpack": "./node_modules/.bin/webpack"
